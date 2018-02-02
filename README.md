@@ -1,4 +1,4 @@
-# CS50
+# CS50 - Harvard's Introduction To Computer Science
 
 Harvard's CS50 course, which I took on EDx, provided me with an introduction to the intellectual enterprises of computer science and the art of programming.
 
