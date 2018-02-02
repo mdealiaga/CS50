@@ -1,0 +1,60 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Index
+{% endblock %}
+
+{% block main %}
+    <form action="{{ url_for('buy') }}" method="post">
+        <fieldset>
+        <table style="width:100%">
+            <tr>
+                <td><b>Symbol</b></td>
+                <td><b>Name</b></td>
+                <td><b>Shares</b></td>
+                <td><b>Price</b></td>
+                <td><b>Total</b></td>
+                <td><b>Buy</b></td>
+                <td><b>Sell</b></td>
+            </tr>
+            
+            {% for stock in stocks %}
+            <tr>
+                <td>{{stock.symbol}}</td>
+                <td>{{stock.name}}</td>
+                <td>{{stock.shares}}</td>
+                <td>{{stock.price}}</td>
+                <td>{{stock.total}}</td>
+                <td><div class="form-group">
+                <input autocomplete="off" autofocus class="form-control" name="buy_share_quant_{{stock.symbol}}" placeholder="Number of Shares" type="text"/>
+            </div></td>
+            <td><div class="form-group">
+                <input autocomplete="off" autofocus class="form-control" name="sell_share_quant_{{stock.symbol}}" placeholder="Number of Shares" type="text"/>
+            </div></td>
+            </tr>
+            {% endfor %}
+            <tr>
+                <td>CASH</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>{{user_cash}}</td>
+                <td><div class="form-group">
+                <button class="btn btn-default" type="submit">Buy</button>
+            </div></td>
+            <td><div class="form-group">
+                <button class="btn btn-default" type="submit">Sell</button>
+            </div></td>
+            </tr>
+            <tr>
+                <td>TOTAL ASSETS</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><b>{{total_money}}</b></td>
+            </tr>
+            
+        </table>
+        </fieldset>
+    </form>
+{% endblock %}

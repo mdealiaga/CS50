@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quote Display
+{% endblock %}
+
+{% block main %}
+    <form action="{{ url_for('buy') }}" method="post">
+        <fieldset>
+            <h1>
+                Test: {{ test }}
+            </h1>
+        </fieldset>
+    </form>
+{% endblock %}

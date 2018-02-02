@@ -1,0 +1,35 @@
+1. What is pneumonoultramicroscopicsilicovolcanoconiosis?
+
+2. According to its man page, what does getrusage do?
+
+Returns usage statistics
+
+3. Per that same man page, how many members are in a variable of type struct rusage?
+
+16
+
+4. Why do you think we pass before and after by reference (instead of by value) to calculate, even though we’re not changing their contents?
+
+
+It's faster
+
+
+5. Explain as precisely as possible, in a paragraph or more, how main goes about reading words from a file. In other words, convince us that you indeed understand how that function’s for loop works.
+
+
+int c = fgetc(fp)
+Loop gets the next character in the file ->
+Checks it’s an alphabetic character or apostrophe, otherwise word is skipped
+If the word fits the criteria, append it to the current word
+If there is a space or punctuation -> add \0 and end word
+
+
+
+6. Why do you think we used fgetc to read each word’s characters one at a time rather than use fscanf with a format string like "%s" to read whole words at a time? Put another way, what problems might arise by relying on fscanf alone?
+
+Doesn't read punctuation, only spaces
+
+
+7. Why do you think we declared the parameters for check and load as const (which means "constant")?
+
+So that pointer directions cannot be changed, which is not needed in this program

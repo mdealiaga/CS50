@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Index
+{% endblock %}
+
+{% block main %}
+    <form action="{{ url_for('index') }}" method="post">
+        <fieldset>
+        <table style="width:100%">
+            <tr>
+                <td><b>Symbol</b></td>
+                <td><b>Name</b></td>
+                <td><b>Shares</b></td>
+                <td><b>Price</b></td>
+                <td><b>Transacted</b></td>
+            </tr>
+            
+            {% for stock in stocks %}
+            <tr>
+                <td>{{stock.symbol}}</td>
+                <td>{{stock.name}}</td>
+                <td>{{stock.shares}}</td>
+                <td>{{stock.price}}</td>
+                <td>{{stock.time}}</td>
+            </tr>
+            {% endfor %}
+        </table>
+        </fieldset>
+    </form>
+{% endblock %}

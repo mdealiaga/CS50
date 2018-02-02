@@ -1,0 +1,49 @@
+#!/usr/bin/env python3
+
+import sys
+import helpers
+import nltk
+from analyzer import Analyzer
+from termcolor import colored
+
+import os
+
+# TODO
+
+#ensure only screen name is inputted
+if len(sys.argv) != 2:
+        sys.exit("Usage: ./smile @screen_name")
+
+# load lists
+positives = os.path.join(sys.path[0], "positive-words.txt")
+negatives = os.path.join(sys.path[0], "negative-words.txt")
+
+# instantiate analyzer
+analyzer = Analyzer(positives, negatives)
+
+#get tweets
+
+tweets = helpers.get_user_timeline(sys.argv[1], count=50)
+if tweets == None:
+    print('Error loading user')
+    sys.exit()
+print(tweets)
+
+#analyze
+
+for i in range(len(tweets)):
+    score = analyzer.analyze(tweets[i])
+
+    #print score
+    if score > 0.0:
+            print(colored(score, 'green'), end='')
+            print(" ", end='')
+            print(colored(tweets[i], 'green'))
+    elif score < 0.0:
+            print(colored(score, 'red'), end='')
+            print(" ", end='')
+            print(colored(tweets[i], 'red'))
+    else:
+           print(colored(score, 'yellow'), end='')
+           print(" ", end='')
+           print(colored(tweets[i], 'yellow'))
