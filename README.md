@@ -10,7 +10,7 @@ This Github Repository contains projects I worked on. Below are the most notable
 
 ### Week 0: First Programming Assignment
 
-Archery Game using Scratch: https://scratch.mit.edu/projects/151832493/
+Archery game using Scratch: https://scratch.mit.edu/projects/151832493/
 
 ### Week 1 - Introduction to C
 
@@ -33,10 +33,10 @@ https://github.com/mdealiaga/CS50/blob/master/pset4/recover/recover.c
 Built a spell-checker using tries: https://github.com/mdealiaga/CS50/tree/master/pset5/speller
 
 ### Week 6 - HTTP
-Learned about IP, TCP, HTTP, as well as HTML and CSS (No assignments)
+Learned about IP, TCP, HTTP, as well as HTML and CSS (no assignments).
 
 ### Week 7 - Machine Learning
-Introduction to Machine learning (No assignemnts).
+Introduction to Machine learning (no assignments).
 
 ### Week 8 - Python - Sentiment Analysis
 Built a Twitter Sentiment Analysis tool: https://github.com/mdealiaga/CS50/tree/master/pset6/sentiments
