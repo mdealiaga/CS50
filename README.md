@@ -1,12 +1,12 @@
 # CS50
 
-Harvard's CS50 course, which I took on EDx, provided me an introduction to the intellectual enterprises of computer science and the art of programming.
+Harvard's CS50 course, which I took on EDx, provided me with an introduction to the intellectual enterprises of computer science and the art of programming.
 
 
-Topics include abstraction, algorithms, data structures, encapsulation, resource management, security, software engineering, and web development. Languages include C, Python, SQL, and JavaScript plus CSS and HTML.
+Topics included abstraction, algorithms, data structures, encapsulation, resource management, security, software engineering, and web development. Languages included C, Python, SQL, and JavaScript plus CSS and HTML.
 
 
-This Github Repository contains the projects I worked on. I only showcase the most notable project in each week, but more are available in respective folders. Additionally, the full course syllabus can be found here: https://docs.cs50.net/2017/x/syllabus.html
+This Github Repository contains projects I worked on. Below are the most notable project in each week, but more are available in respective folders. Additionally, the full course syllabus can be found here: https://docs.cs50.net/2017/x/syllabus.html
 
 ### Week 0: First Programming Assignment
 
