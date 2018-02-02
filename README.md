@@ -38,7 +38,7 @@ Learned about IP, TCP, HTTP, as well as HTML and CSS (No assignments)
 ### Week 7 - Machine Learning
 Introduction to Machine learning (No assignemnts).
 
-### Week 8 - Python Sentiment Analysis
+### Week 8 - Python - Sentiment Analysis
 Built a Twitter Sentiment Analysis tool: https://github.com/mdealiaga/CS50/tree/master/pset6/sentiments
 
 ### Week 9 - SQL
