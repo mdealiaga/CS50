@@ -41,5 +41,5 @@ Introduction to Machine learning (No assignemnts).
 ### Week 8 - Python - Sentiment Analysis
 Built a Twitter Sentiment Analysis tool: https://github.com/mdealiaga/CS50/tree/master/pset6/sentiments
 
-### Week 9 - SQL
+### Week 9 - SQL - Finance
 Built a mock stock-trading website using SQL, Python and Flask: https://github.com/mdealiaga/CS50/tree/master/pset7/finance
