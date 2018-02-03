@@ -14,23 +14,23 @@ Archery game using Scratch: https://scratch.mit.edu/projects/151832493/
 
 ### Week 1 - Introduction to C
 
-Mario Pyramid Builder: https://github.com/mdealiaga/CS50/blob/master/pset1/mario.c
+Mario Pyramid Builder: https://github.com/mdealiaga/CS50/blob/master/pset1-intro-to-c/mario.c
 
 ### Week 2 - Arrays - Cryptography
 Message Encrypter using ASCII, modulo operator, and adapting to user input:
-https://github.com/mdealiaga/CS50/blob/master/pset2/vigenere.c
+https://github.com/mdealiaga/CS50/blob/master/pset2-arrays-cryptography/vigenere.c
 
 ### Week 3 - Algorithms
 
-Built puzzle game which implements searching algorithms: https://github.com/mdealiaga/CS50/tree/master/pset3/fifteen
+Built puzzle game which implements searching algorithms: https://github.com/mdealiaga/CS50/tree/master/pset3-algorithms/fifteen
 
 ### Week 4 - Memory - Forensics
 
 Built a JPEG recovery script for faulty memory cards:
-https://github.com/mdealiaga/CS50/blob/master/pset4/recover/recover.c
+https://github.com/mdealiaga/CS50/blob/master/pset4-memory-forensics/recover/recover.c
 
 ### Week 5 - Data Structures
-Built a spell-checker using tries: https://github.com/mdealiaga/CS50/tree/master/pset5/speller
+Built a spell-checker using tries: https://github.com/mdealiaga/CS50/tree/master/pset5-data-structures/speller
 
 ### Week 6 - HTTP
 Learned about IP, TCP, HTTP, as well as HTML and CSS (no assignments).
@@ -39,7 +39,7 @@ Learned about IP, TCP, HTTP, as well as HTML and CSS (no assignments).
 Introduction to Machine learning (no assignments).
 
 ### Week 8 - Python - Sentiment Analysis
-Built a Twitter Sentiment Analysis tool: https://github.com/mdealiaga/CS50/tree/master/pset6/sentiments
+Built a Twitter Sentiment Analysis tool: https://github.com/mdealiaga/CS50/tree/master/pset6-python-sentiment-analysis/sentiments
 
 ### Week 9 - SQL - Finance
-Built a mock stock-trading website using SQL, Python and Flask: https://github.com/mdealiaga/CS50/tree/master/pset7/finance
+Built a mock stock-trading website using SQL, Python and Flask: https://github.com/mdealiaga/CS50/tree/master/pset7-sql-finance/finance
