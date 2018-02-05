@@ -27,10 +27,10 @@ This Github Repository contains the projects I worked on. I only showcase the mo
 [Built a spell-checker using tries](https://github.com/mdealiaga/CS50/tree/master/pset5/speller)
 
 ### Week 6 - HTTP
-Learned about IP, TCP, HTTP, as well as HTML and CSS (No assignments)
+Learned about IP, TCP, HTTP, as well as HTML and CSS (no assignments)
 
 ### Week 7 - Machine Learning
-Introduction to Machine learning (No assignemnts).
+Introduction to Machine learning (no assignments).
 
 ### Week 8 - Python Sentiment Analysis
 [Built a Twitter Sentiment Analysis tool](https://github.com/mdealiaga/CS50/tree/master/pset6/sentiments)
